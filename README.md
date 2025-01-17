@@ -3,6 +3,35 @@
 Acest proiect implementează un sistem inteligent de acces bazat pe recunoașterea facială, utilizând o combinație de hardware (Arduino Uno, ESP32-CAM) și software (Python și Arduino IDE). Sistemul controlează accesul prin deschiderea unei uși sau a unui sertar, oferind feedback vizual și auditiv utilizatorului.
 
 ---
+## 🗂️ Documentația Proiectului
+
+Documentația proiectului este împărțită în două părți pentru a acoperi toate aspectele dezvoltării:
+
+1. **Prima parte**: 
+   - Concepută ca o lucrare de laborator, această parte explică detaliat fiecare implementare.
+   - Include exemple și exerciții pentru înțelegerea conceptelor.
+   - Se concentrează pe o versiune simplificată a proiectului, utilizând:
+     - Programarea pe registrii doar la nivel de timer pentru motor.
+     - LED-uri pentru feedback vizual (verde și roșu).
+     - LCD cu I2C, motor servo, ESP32-CAM, Arduino și potențiometru.
+   - Scopul acestei părți este educațional, oferind o bază solidă pentru înțelegerea elementelor de bază.
+
+2. **A doua parte**:
+   - Este o documentație clasică de proiect, care detaliază o implementare mai complexă.
+   - Adaugă funcționalități avansate prin programarea pe registrii pentru întregul script Arduino.
+   - Integrează componente suplimentare pentru îmbunătățirea sistemului:
+     - Buton pentru oprirea motorului.
+     - Senzor de lumină TEMT6000 pentru optimizarea capturii ESP32-CAM.
+     - Senzor Hall pentru detectarea obstacolelor.
+     - Senzor PIR pentru detectarea mișcării.
+     - Mai multe LED-uri pentru indicarea stării senzorilor.
+
+Documentația completă se află în fișierele dedicate din directorul proiectului:
+- **Sistem de Recunoaștere Facială - Partea 1**: Lucrare de laborator detaliată.
+- **Sistem de Recunoaștere Facială - Partea 2**: Documentație clasică de proiect.
+
+Aceste fișiere oferă informații detaliate despre implementare și utilizare.
+---
 
 ## 🛠️ Componente Hardware
 
@@ -93,5 +122,6 @@ Acest proiect implementează un sistem inteligent de acces bazat pe recunoașter
 4. Apăsați butonul pentru a opri motorul în timpul funcționării, dacă accesul este permis.
 
 ---
+
 
 Pentru orice întrebări sau sugestii, contactați-ne la: **g.brujbeanu18@gmail.com**; **ionescurares414@gmail.com**;
